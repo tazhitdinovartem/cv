@@ -1,0 +1,38 @@
+$red: #ee6e73;
+$custom-font: 'Comfortaa', cursive;
+body {
+  background: white;
+}
+h1 {
+  font-size: 2.6rem;
+  color: $red;
+  margin-left: 220px;
+  line-height: 4rem;
+}
+h2 {
+  font-size: 2.3rem;
+}
+h1, h2, h3, h4, h5 {
+  font-family: $custom-font;
+}
+.title {
+  margin-top: 30px;
+  .logo {
+    display: block;
+    margin: 0 auto 30px;
+    width: 200px;
+    height: auto;
+  }
+  .avatar {
+    border-radius: 100%;
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-top: -40px;
+  }
+}
+ul {
+  span {
+    color: grey;
+  }
+}

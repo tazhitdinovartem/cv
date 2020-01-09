@@ -1,0 +1,33 @@
+body {
+  background: white; }
+
+h1 {
+  font-size: 2.6rem;
+  color: #ee6e73;
+  margin-left: 220px;
+  line-height: 4rem; }
+
+h2 {
+  font-size: 2.3rem; }
+
+h1, h2, h3, h4, h5 {
+  font-family: "Comfortaa", cursive; }
+
+.title {
+  margin-top: 30px; }
+  .title .logo {
+    display: block;
+    margin: 0 auto 30px;
+    width: 200px;
+    height: auto; }
+  .title .avatar {
+    border-radius: 100%;
+    width: 200px;
+    height: auto;
+    float: left;
+    margin-top: -40px; }
+
+ul span {
+  color: grey; }
+
+/*# sourceMappingURL=main.css.map */
