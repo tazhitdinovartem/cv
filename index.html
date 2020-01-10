@@ -9,6 +9,15 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/animate.min.css">
   <title>CV</title>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const logo =  document.querySelector('.logo')
+      logo.addEventListener('animationend', function() {
+        logo.classList.remove('animated', 'jackInTheBox', 'delay-1s')
+        logo.classList.add('swing', 'animated', 'delay-1s', 'slow')
+      })
+    });
+  </script>
 </head>
 <body>
   <div class="container animated bounceInUp">
