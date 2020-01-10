@@ -1,10 +1,16 @@
 body {
   background: white; }
 
+a {
+  color: #ee6e73;
+  transition: all ease-in .2s; }
+  a:hover {
+    color: #000; }
+
 h1 {
   font-size: 2.6rem;
   color: #ee6e73;
-  margin-left: 220px;
+  margin-left: 145px;
   line-height: 4rem; }
 
 h2 {
@@ -13,21 +19,37 @@ h2 {
 h1, h2, h3, h4, h5 {
   font-family: "Comfortaa", cursive; }
 
+.title-row {
+  margin-bottom: 0; }
+
 .title {
-  margin-top: 30px; }
+  margin-top: 20px; }
   .title .logo {
     display: block;
-    margin: 0 auto 30px;
-    width: 200px;
+    margin: 0 auto;
+    width: 110px;
     height: auto; }
   .title .avatar {
     border-radius: 100%;
-    width: 200px;
+    width: 125px;
     height: auto;
     float: left;
-    margin-top: -40px; }
+    margin-top: -9px; }
+  .title h1 {
+    margin-top: 5px; }
 
 ul span {
   color: grey; }
+
+.info-section > .col > ul {
+  margin-top: 0; }
+
+.marked-list li:before {
+  content: "\2022";
+  color: #ee6e73;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em; }
 
 /*# sourceMappingURL=main.css.map */

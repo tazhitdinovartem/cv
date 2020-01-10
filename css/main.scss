@@ -3,10 +3,17 @@ $custom-font: 'Comfortaa', cursive;
 body {
   background: white;
 }
+a {
+  color: $red;
+  transition: all ease-in .2s;
+  &:hover {
+    color: #000;
+  }
+}
 h1 {
   font-size: 2.6rem;
   color: $red;
-  margin-left: 220px;
+  margin-left: 145px;
   line-height: 4rem;
 }
 h2 {
@@ -15,24 +22,43 @@ h2 {
 h1, h2, h3, h4, h5 {
   font-family: $custom-font;
 }
+.title-row {
+  margin-bottom: 0;
+}
 .title {
-  margin-top: 30px;
+  margin-top: 20px;
   .logo {
     display: block;
-    margin: 0 auto 30px;
-    width: 200px;
+    margin: 0 auto;
+    width: 110px;
     height: auto;
   }
   .avatar {
     border-radius: 100%;
-    width: 200px;
+    width: 125px;
     height: auto;
     float: left;
-    margin-top: -40px;
+    margin-top: -9px;
+  }
+  h1 {
+    margin-top: 5px;
   }
 }
 ul {
   span {
     color: grey;
+  }
+}
+.info-section > .col > ul { margin-top: 0;}
+.marked-list {
+  li {
+    &:before {
+      content: "\2022"; 
+      color: $red; 
+      font-weight: bold;
+      display: inline-block;
+      width: 1em; 
+      margin-left: -1em; 
+    }
   }
 }
